@@ -1,11 +1,11 @@
 # Usage
-This userscript adds a minimap above the chat in yume nikki online for ease of navigating in-game
-It will add two new buttons, one to toggle the visibility of the minimap, and another to edit the minimap settings
-The settings menu isn't very polished yet, and any issues+pull requests are appriciated because I cannot figure it out
+This userscript adds proximity voice chat to YNO
+It adds a new button and menu for viewing nearby players with proximity chat and related settings.
+Issues+pull requests are appriciated :)
 
 # Installation
-1. Navigate to the [dist](https://github.com/omoflop/ynominimap/blob/dist/) branch
-2. Open up [minimap.user.js](https://github.com/omoflop/ynominimap/blob/dist/minimap.user.js)
+1. Navigate to the [dist](https://github.com/omoflop/ynoproximitychat/blob/dist/) branch
+2. Open up [minimap.user.js](https://github.com/omoflop/ynoproximitychat/blob/dist/minimap.user.js)
 3. Press the "copy raw" button
 ![image](https://github.com/user-attachments/assets/f09eb62e-e218-47b7-91f4-effef0a3ab0b)
 4. Install a userscript extension for your browser, for example [Tampermonkey](https://www.tampermonkey.net/)
