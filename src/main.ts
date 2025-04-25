@@ -2,9 +2,12 @@ import * as PageUtil from "./pageutil";
 import * as Game from "./game";
 import { version } from "../version.json";
 import * as Ui from "./ui";
+import * as Users from "./users";
 
 const updatesPerSecond = 10;
 let wasGameLoaded = false;
+
+Users.loadUserdata();
 
 const update = () => {
     if (!wasGameLoaded && Game.isGameLoaded()) {
@@ -24,6 +27,8 @@ const update = () => {
                 console.error(error);
             });
     }
+
+    Users.saveUserdata();
 
     setTimeout(update, 1000 / updatesPerSecond);
 };
